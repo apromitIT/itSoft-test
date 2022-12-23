@@ -1,0 +1,25 @@
+.modal-warning {
+  position: fixed;
+  top: 85vh;
+  opacity: 0.75;
+  z-index: 100;
+}
+.modal-warning .btn-close {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  z-index: 101;
+}
+.modal-warning .modal-content {
+  background: #F9F9F9;
+}
+.modal-warning .modal-text {
+  padding: 30px 57px 14px 55px;
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #242424;
+  border-radius: 18px;
+  opacity: 0.7;
+}

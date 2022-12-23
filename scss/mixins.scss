@@ -1,0 +1,56 @@
+
+@mixin btn-primary {
+	display: block;
+	padding: 6px 24px;
+	margin-right: 50px;
+	background-color: $primary-color;
+	color: $secondary-color;
+	font-weight: 500;
+	line-height: 28px;
+	text-decoration: none;
+transition: all linear 500ms;
+	&:hover {
+		background-color: lighten($primary-color, 7%);
+		color: $secondary-color;
+	}
+}
+
+@mixin btn-transparent {
+	width: 263px;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: transparent;
+	border-color: $primary-color;
+	color: $primary-color;
+	transition: all 500ms;
+
+	&:hover {
+		background-color: $primary-color;
+		color: $secondary-color ;
+	}
+}
+
+@mixin main-logo {
+	height: 39px;
+	width: 203px;
+	margin: auto 0;
+	background-image: url('../img/Venarus-logo.svg');
+}
+
+@mixin icon-hover {
+	transition: all linear 300ms;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+
+@mixin link-hover () {
+	transition: all linear 300ms;
+
+	&:hover {
+		color: $primary-color;
+	}
+}
