@@ -78,25 +78,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	});
 
-	const sliderExperts = new Swiper('.experts-opinion', {
-		width: 847,
+	// const sliderExperts = new Swiper('.experts-opinion', {
+	// 	width: 847,
 
-		loop: true,
-		centeredSlides: true,
-		slidesPerView: 1,
-		keyboard: true,
+	// 	loop: true,
+	// 	centeredSlides: true,
+	// 	slidesPerView: 1,
+	// 	keyboard: true,
 
-		autoplay: {
-			delay: 2000,
-		},
+	// 	autoplay: {
+	// 		delay: 2000,
+	// 	},
 
 
-		pagination: {
-			el: '.swiper-pagination',
-			type: 'bullets',
-			clickable: true,
-		},
-	});
+	// 	pagination: {
+	// 		el: '.swiper-pagination',
+	// 		type: 'bullets',
+	// 		clickable: true,
+	// 	},
+	// });
 
 
 
